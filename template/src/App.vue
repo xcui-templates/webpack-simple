@@ -7,7 +7,7 @@
         <x-button type="primary" @click="welcome"> Hello World </x-button>
       </li>
       <li>
-        Xcui is a collection of Vue.js 2.x desktop components collection.
+        Xcui is a Vue.js 2.x desktop components collection.
       </li>
       <li>
         To learn more about xcui, visit
