@@ -27,11 +27,12 @@
 
 <script>
 export default {
-  el: '#app',
-  data: {
-    greeting: 'Welcome to your Vue.js & xcui app!',
-    docsURL: 'https://wmfe.github.io/xcui/',
-    repoURL: 'https://github.com/wmfe/xcui',
+  data() {
+    return {
+      greeting: 'Welcome to your Vue.js & xcui app!',
+      docsURL: 'https://wmfe.github.io/xcui/',
+      repoURL: 'https://github.com/wmfe/xcui'
+    }
   },
   methods: {
     humanizeURL: function (url) {
